@@ -5,6 +5,9 @@ import java.util.Random;
 public class TestMainNew {
 
 	public static void main(String[] args) {
+
+		System.out.println("LoadBalancing start ============================");
+	
 		int cnt = 0;
 		while(cnt < 200) {
 			String url = URLManager.getInstance().getURL();
